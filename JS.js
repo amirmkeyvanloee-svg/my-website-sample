@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
 
     var products = [
-        { id: 1, name: 'پیراهن کتان', price: '۱,۲۰۰,۰۰۰', img: 'images/second.png' },
-        { id: 2, name: 'شلوار پارچه‌ای', price: '۹۸۰,۰۰۰', img: 'images/third.png' },
-        { id: 3, name: 'کت مینیمال', price: '۲,۴۵۰,۰۰۰', img: 'images/fourth.png' },
-        { id: 4, name: 'تیشرت نخی', price: '۶۲۰,۰۰۰', img: 'images/fifth.png' },
-        { id: 5, name: 'دامن پلیسه', price: '۱,۳۵۰,۰۰۰', img: 'images/sixth.png' },
-        { id: 6, name: 'ست اکسسوری', price: '۴۸۰,۰۰۰', img: 'images/seventh.png' }
+        { id: 1, name: 'پیراهن کتان', price: '۱,۲۰۰,۰۰۰', img: 'images/second.jpg' },
+        { id: 2, name: 'شلوار پارچه‌ای', price: '۹۸۰,۰۰۰', img: 'images/third.jpg' },
+        { id: 3, name: 'کت مینیمال', price: '۲,۴۵۰,۰۰۰', img: 'images/fourth.jpg' },
+        { id: 4, name: 'تیشرت نخی', price: '۶۲۰,۰۰۰', img: 'images/fifth.jpg' },
+        { id: 5, name: 'دامن پلیسه', price: '۱,۳۵۰,۰۰۰', img: 'images/sixth.jpg' },
+        { id: 6, name: 'ست اکسسوری', price: '۴۸۰,۰۰۰', img: 'images/seventh.jpg' }
     ];
 
     var grid = document.getElementById('productGrid');
