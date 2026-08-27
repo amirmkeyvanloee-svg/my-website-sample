@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پارچه‌نو | فروشگاه لباس</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<header class="header">
+    <div class="container header__inner">
+        <div class="logo">
+            <span class="logo__icon">✦</span>
+            <span class="logo__text">پارچه‌نو</span>
+        </div>
+        <nav class="nav">
+            <a href="#" class="nav__link active">خانه</a>
+            <a href="#" class="nav__link">مردانه</a>
+            <a href="#" class="nav__link">زنانه</a>
+            <a href="#" class="nav__link">بچگانه</a>
+            <a href="#" class="nav__link">اکسسوری</a>
+            <a href="#" class="nav__link">تخفیف‌ها</a>
+        </nav>
+        <div class="header__actions">
+            <button class="icon-btn" aria-label="جستجو">🔍</button>
+            <button class="icon-btn" aria-label="سبد خرید">🛒<span class="badge">۳</span></button>
+            <!-- دکمه تغییر حالت شب و روز -->
+            <button class="theme-toggle" id="themeToggle" aria-label="تغییر حالت شب و روز">
+                <span class="theme-toggle__icon">🌙</span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<section class="hero" style="background-image: url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\' viewBox=\'0 0 100 100\'%3E%3Crect width=\'100\' height=\'100\' fill=\'%23f5f0eb\'/%3E%3Cpath d=\'M10 10 L90 10 L90 90 L10 90 Z\' fill=\'none\' stroke=\'%23e0d6cc\' stroke-width=\'0.5\'/%3E%3C/svg%3E');">
+    <div class="container hero__inner">
+        <div class="hero__content">
+            <h1 class="hero__title">پوشاک <br>با اصالت <span class="highlight">کلاسیک</span></h1>
+            <p class="hero__desc">مجموعه‌ای از بهترین لباس با کیفیت و طراحی ماندگار، مناسب برای هر فصل و هر سلیقه</p>
+            <a href="#" class="btn btn--primary">مشاهده مجموعه</a>
+        </div>
+        <div class="hero__image">
+            <div class="hero__image-placeholder" style="background-image: url('images/first.png'); background-size: cover; background-position: center; border-radius: 40px;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="products">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">جدیدترین <span class="highlight">محصولات</span></h2>
+            <a href="#" class="link-more">مشاهده همه ←</a>
+        </div>
+        <div class="products__grid" id="productGrid">
+            <!-- محصولات توسط JS ساخته می‌شوند -->
+        </div>
+    </div>
+</section>
+
+<section class="newsletter" style="background: #f0ebe5;">
+    <div class="container newsletter__inner">
+        <div class="newsletter__content">
+            <h3 class="newsletter__title">از <span class="highlight">تازه‌ها</span> باخبر شوید</h3>
+            <p class="newsletter__desc">اولین نفری باشید که از محصولات جدید و تخفیف‌های ویژه مطلع می‌شوید.</p>
+            <form class="newsletter__form" id="newsletterForm">
+                <input type="email" placeholder="شماره خود را وارد کنید" required class="newsletter__input">
+                <button type="submit" class="btn btn--primary btn--small">ثبت</button>
+            </form>
+            <span class="newsletter__hint">بدون هرزنامه، فقط محتوای ارزشمند.</span>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer__inner">
+        <div class="footer__col">
+            <div class="logo logo--light">
+                <span class="logo__icon">✦</span>
+                <span class="logo__text">پارچه‌نو</span>
+            </div>
+            <p class="footer__about">پوشاکی کلاسیک برای تمام فصول.</p>
+        </div>
+        <div class="footer__col">
+            <h4 class="footer__title">دسترسی سریع</h4>
+            <ul class="footer__list">
+                <li><a href="#">مردانه</a></li>
+                <li><a href="#">زنانه</a></li>
+                <li><a href="#">بچگانه</a></li>
+                <li><a href="#">تخفیف‌ها</a></li>
+            </ul>
+        </div>
+        <div class="footer__col">
+            <h4 class="footer__title">ارتباط</h4>
+            <ul class="footer__list">
+                <li><a href="#">اینستاگرام</a></li>
+                <li><a href="#">تلگرام</a></li>
+                <li><a href="#">پشتیبانی</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <span>© ۱۴۰۵ پارچه‌نو – تمامی حقوق محفوظ است.</span>
+    </div>
+</footer>
+
+<script src="JS.js"></script>
+</body>
+</html>
